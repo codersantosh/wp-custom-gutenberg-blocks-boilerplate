@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "wp-custom-gutenberg-blocks-boilerplate/step-1-intro",
+	"version": "1.0.0",
+	"title": "Intro",
+	"category": "wp-custom-gutenberg-blocks-boilerplate",
+	"icon": "info",
+	"description": "Introduction to blocks.json, attributes, supports, scss files, edit and save js and many more.",
+	"keywords": [ "boilerplate","intro" ],
+	"textdomain": "wp-custom-gutenberg-blocks-boilerplate",
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:index.js"
+}

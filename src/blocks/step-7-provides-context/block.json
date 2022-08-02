@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "wp-custom-gutenberg-blocks-boilerplate/step-7-provides-context",
+	"version": "1.0.0",
+	"title": "Provides Context",
+	"category": "wp-custom-gutenberg-blocks-boilerplate",
+	"icon": "shortcode",
+	"description": "Provide values to inner (descendent) blocks",
+	"keywords": [ "boilerplate","provides context"],
+	"textdomain": "wp-custom-gutenberg-blocks-boilerplate",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"recordId": {
+			"type": "number"
+		}
+	},
+	"providesContext": {
+		"wp-custom-gutenberg-blocks-boilerplate/recordId": "recordId"
+	},
+	"editorScript": "file:index.js"
+}

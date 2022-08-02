@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "wp-custom-gutenberg-blocks-boilerplate/step-6-dynamic-block",
+	"version": "1.0.0",
+	"title": "Dynamic Block",
+	"category": "wp-custom-gutenberg-blocks-boilerplate",
+	"icon": "database",
+	"description": "Dynamic Block (PHP)",
+	"keywords": [ "boilerplate","dynamic"],
+	"textdomain": "wp-custom-gutenberg-blocks-boilerplate",
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:index.js"
+}

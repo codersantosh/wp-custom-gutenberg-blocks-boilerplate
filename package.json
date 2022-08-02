@@ -1,0 +1,42 @@
+{
+	"name": "wp-custom-gutenberg-blocks-boilerplate",
+	"version": "1.0.0",
+	"description": "WP Custom Gutenberg Blocks Boilerplate - Create Custom WordPress Gutenberg Blocks",
+	"author": "codersantosh",
+	"license": "GPL-2.0-or-later",
+	"main": "blocks.js",
+	"scripts": {
+		"build:admin": "wp-scripts build src/settings.js --webpack-src-dir=src/admin --webpack-copy-php --output-path=build/admin",
+		"build:public": "wp-scripts build src/public.js --webpack-src-dir=src/public --webpack-copy-php --output-path=build/public",
+		"build:blocks": "wp-scripts build src/blocks.js --webpack-src-dir=src/blocks --webpack-copy-php --output-path=build/blocks",
+		"build": "npm-run-all --parallel build:admin build:public build:blocks",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"start:admin": "wp-scripts start src/settings.js --webpack-src-dir=src/admin --webpack-copy-php --output-path=build/admin",
+		"start:public": "wp-scripts start src/public.js --webpack-src-dir=src/public --webpack-copy-php --output-path=build/public",
+		"start:blocks": "wp-scripts start --webpack-src-dir=src/blocks --webpack-copy-php --output-path=build/blocks",
+		"start": "npm-run-all --parallel start:admin start:public start:blocks",
+		"packages-update": "wp-scripts packages-update"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^23.5.0"
+	},
+	"dependencies": {
+		"@wordpress/block-editor": "^9.5.0",
+		"@wordpress/blocks": "^11.12.0",
+		"@wordpress/components": "^19.15.0",
+		"@wordpress/i18n": "^4.13.0",
+		"@wordpress/icons": "^9.4.0",
+		"@wordpress/url": "^3.14.0",
+		"autoprefixer": "^10.4.7",
+		"lodash": "^4.17.21",
+		"npm-run-all": "^4.1.5",
+		"react-router-dom": "^6.3.0",
+		"stylis": "^4.1.1"
+	},
+	"browserslist": [
+		"last 3 versions",
+		"> 1%"
+	]
+}

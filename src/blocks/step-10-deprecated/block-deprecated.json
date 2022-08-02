@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "wp-custom-gutenberg-blocks-boilerplate/step-10-deprecated",
+	"version": "1.0.0",
+	"title": "Deprecated Block",
+	"category": "wp-custom-gutenberg-blocks-boilerplate",
+	"icon": "admin-generic",
+	"description": "Example Deprecated Block.",
+	"keywords": [ "boilerplate","Deprecated block" ],
+	"textdomain": "wp-custom-gutenberg-blocks-boilerplate",
+	"attributes": {
+		"tName": {
+			"type": "string",
+			"default": "p"
+		},
+		"description": {
+			"type": "string",
+			"source": "html",
+			"selector": "h1,h2,h3,h4,h5,h6,p",
+			"default": "",
+			"__experimentalRole": "content"
+		}
+	},
+	"supports": {
+		"anchor": true,
+		"className": false
+	},
+	"editorScript": "file:index.js"
+}
