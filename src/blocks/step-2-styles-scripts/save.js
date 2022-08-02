@@ -19,7 +19,12 @@ export default function save() {
 	const greenBackground = {
 		backgroundColor: '#fd4111',
 	};
-	const blockProps = useBlockProps.save( { style: greenBackground } );
+	const blockProps = useBlockProps.save(
+		{
+			style: greenBackground,
+			className:'wp-custom-gutenberg-blocks-boilerplate-parent'
+		}
+		);
 
 	return (
 		<>
@@ -43,7 +48,6 @@ export default function save() {
 			</RenderCss>
 			<div
 				{ ...blockProps }
-				className='wp-custom-gutenberg-blocks-boilerplate-parent'
 			>
 				<div className='wp-custom-gutenberg-blocks-boilerplate-child wp-custom-gutenberg-blocks-boilerplate-child-1'>
 					{ __( 'Hello WordPress Developers! from the frontend Style and Scripts Child 1!', 'wp-custom-gutenberg-blocks-boilerplate') }

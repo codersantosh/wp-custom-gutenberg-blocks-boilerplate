@@ -21,8 +21,12 @@ export default function edit() {
 	const greenBackground = {
 		backgroundColor: '#090',
 	};
-	const blockProps = useBlockProps( { style: greenBackground } );
-
+	const blockProps = useBlockProps(
+		{
+			style: greenBackground,
+			className:'wp-custom-gutenberg-blocks-boilerplate-parent'
+		}
+	);
 	return (
 		<>
 			<RenderCss>
@@ -45,7 +49,7 @@ export default function edit() {
 			</RenderCss>
 			<div
 				{ ...blockProps }
-				className='wp-custom-gutenberg-blocks-boilerplate-parent'
+
 			>
 				<div className='wp-custom-gutenberg-blocks-boilerplate-child wp-custom-gutenberg-blocks-boilerplate-child-1'>
 					{ __( 'Hello WordPress Developers! from the editor Style and Scripts Child 1!', 'wp-custom-gutenberg-blocks-boilerplate') }
