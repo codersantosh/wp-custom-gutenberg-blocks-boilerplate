@@ -99,11 +99,7 @@ class Wp_Custom_Gutenberg_Blocks_Boilerplate_Include {
             'step-3-block-controls',
             'step-4-normal-block',
             'step-5-inner-block',
-            'step-7-provides-context',
-            'step-8-uses-context',
-            'step-9-transforms',
-            'step-10-deprecated',
-            'step-11-examples',
+            'step-7-provides-context'
         );
         foreach ( $block_folders as $block_folder ) {
             register_block_type_from_metadata(

@@ -36,9 +36,9 @@ export default function edit(props ) {
 			<div { ...blockProps }>
 				{ __( 'Provide values to inner (descendent) blocks using providesContext', 'wp-custom-gutenberg-blocks-boilerplate') }
 				<InnerBlocks
-					template={ MY_TEMPLATE }
+					// template={ MY_TEMPLATE }
 					templateLock={ false }
-					allowedBlocks={ [ 'wp-custom-gutenberg-blocks-boilerplate/step-8-uses-context'] }
+					// allowedBlocks={ [ 'wp-custom-gutenberg-blocks-boilerplate/step-8-uses-context'] }
 				/>
 			</div>
 		</>
