@@ -45,7 +45,7 @@ export default function edit({clientId}) {
 				icon ='plus'
 				onClick={addInnerBlock}
 			>
-				{__('Add New','wp-custom-gutenberg-blocks-boilerplate' )}
+				{__('Add New FAQ','wp-custom-gutenberg-blocks-boilerplate' )}
 			</Button>
 		</div>
 	);
