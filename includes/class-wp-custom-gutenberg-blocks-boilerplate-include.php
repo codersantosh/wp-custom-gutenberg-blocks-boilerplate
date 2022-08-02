@@ -56,8 +56,6 @@ class Wp_Custom_Gutenberg_Blocks_Boilerplate_Include {
 		$this->plugin_name = $plugin_name;
 		$this->version     = $version;
 
-        require WP_CUSTOM_GUTENBERG_BLOCKS_BOILERPLATE_PATH  . 'build/blocks/step-6-dynamic-block/index.php';
-
     }
 
 
@@ -97,13 +95,7 @@ class Wp_Custom_Gutenberg_Blocks_Boilerplate_Include {
             'step-1-intro',
             'step-2-styles-scripts',
             'step-3-block-controls',
-            'step-4-normal-block',
-            'step-5-inner-block',
-            'step-7-provides-context',
-            'step-8-uses-context',
-            'step-9-transforms',
-            'step-10-deprecated',
-            'step-11-examples',
+            'step-4-normal-block'
         );
         foreach ( $block_folders as $block_folder ) {
             register_block_type_from_metadata(
