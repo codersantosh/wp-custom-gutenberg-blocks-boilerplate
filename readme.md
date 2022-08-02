@@ -2,7 +2,7 @@ WP Custom Gutenberg Blocks Boilerplate is a starter WordPress plugin to develop 
 
 # WP Custom Gutenberg Blocks Boilerplate
 
-`WP Custom Gutenberg Blocks Boilerplate` is a starter WordPress plugin to develop Custom WordPress Gutenberg Blocks. The started plugin is created from [WP React Plugin Boilerplate]('https://github.com/codersantosh/wp-react-plugin-boilerplate'), in addition it adds ability to add custom Gutenberg Blocks.
+>`WP Custom Gutenberg Blocks Boilerplate` is a starter WordPress plugin to develop Custom WordPress Gutenberg Blocks. The started plugin is created from [WP React Plugin Boilerplate](https://github.com/codersantosh/wp-react-plugin-boilerplate), in addition it adds ability to add custom Gutenberg Blocks.
 
 ## GETTING STARTED
 
