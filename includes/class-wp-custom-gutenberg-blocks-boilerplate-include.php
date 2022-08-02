@@ -77,7 +77,7 @@ class Wp_Custom_Gutenberg_Blocks_Boilerplate_Include {
             array(
                 array(
                     'slug'  => 'wp-custom-gutenberg-blocks-boilerplate',
-                    'title' => __( 'Gutenberg blocks boilerplate', 'gutentor' ),
+                    'title' => __( 'Gutenberg blocks boilerplate', 'wp-custom-gutenberg-blocks-boilerplate' ),
                 ),
             ),
             $categories
