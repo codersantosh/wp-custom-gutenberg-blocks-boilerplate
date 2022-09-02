@@ -15,10 +15,6 @@ import {useBlockProps} from '@wordpress/block-editor';
  */
 export default function edit({ context, setAttributes } ) {
 
-	useEffect(() => {
-		setAttributes( { contextRecordId: Number( context[ 'wp-custom-gutenberg-blocks-boilerplate/recordId' ] ) } )
-	}, [context[ 'wp-custom-gutenberg-blocks-boilerplate/recordId' ]]);
-
 	const blockProps = useBlockProps();
 	return (
 		<p { ...blockProps }>
