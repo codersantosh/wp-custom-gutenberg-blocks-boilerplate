@@ -1,4 +1,4 @@
-/*STYLIS : https://www.npmjs.com/package/stylis*/
+/*https://gist.github.com/codersantosh/393ccbca4f1504ddd343abb0756fce72*/
 import {compile, serialize, stringify, middleware, prefixer} from 'stylis';
 
 /*Process the Raw CSS*/
